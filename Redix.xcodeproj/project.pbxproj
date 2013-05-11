@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF4173EC874008CD120 /* Cocoa.framework */; };
+		0B656EF7173EC874008CD120 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF6173EC874008CD120 /* MacRuby.framework */; };
+		0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B656EFE173EC874008CD120 /* InfoPlist.strings */; };
+		0B656F02173EC874008CD120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B656F01173EC874008CD120 /* main.m */; };
+		0B656F07173EC874008CD120 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F05173EC874008CD120 /* MainMenu.xib */; };
+		0B656F0A173EC875008CD120 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F09173EC875008CD120 /* rb_main.rb */; };
+		0B656F0C173EC875008CD120 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F0B173EC875008CD120 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B656EF9173EC874008CD120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B656EE9173EC874008CD120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B656EF0173EC874008CD120;
+			remoteInfo = Redix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B656EF1173EC874008CD120 /* Redix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B656EF4173EC874008CD120 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0B656EF6173EC874008CD120 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		0B656EFD173EC874008CD120 /* Redix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Redix-Info.plist"; sourceTree = "<group>"; };
+		0B656EFF173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B656F01173EC874008CD120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B656F03173EC874008CD120 /* Redix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Redix-Prefix.pch"; sourceTree = "<group>"; };
+		0B656F06173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0B656F09173EC875008CD120 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		0B656F0B173EC875008CD120 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B656EEE173EC874008CD120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */,
+				0B656EF7173EC874008CD120 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B656EE8173EC874008CD120 = {
+			isa = PBXGroup;
+			children = (
+				0B656EFB173EC874008CD120 /* Redix */,
+				0B656EF3173EC874008CD120 /* Frameworks */,
+				0B656EF2173EC874008CD120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B656EF2173EC874008CD120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B656EF1173EC874008CD120 /* Redix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B656EF3173EC874008CD120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B656EF4173EC874008CD120 /* Cocoa.framework */,
+				0B656EF6173EC874008CD120 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B656EFB173EC874008CD120 /* Redix */ = {
+			isa = PBXGroup;
+			children = (
+				0B656F0B173EC875008CD120 /* AppDelegate.rb */,
+				0B656F04173EC874008CD120 /* Resources */,
+				0B656F08173EC875008CD120 /* Other Sources */,
+				0B656EFC173EC874008CD120 /* Supporting Files */,
+			);
+			path = Redix;
+			sourceTree = "<group>";
+		};
+		0B656EFC173EC874008CD120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B656EFD173EC874008CD120 /* Redix-Info.plist */,
+				0B656EFE173EC874008CD120 /* InfoPlist.strings */,
+				0B656F01173EC874008CD120 /* main.m */,
+				0B656F03173EC874008CD120 /* Redix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B656F04173EC874008CD120 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B656F05173EC874008CD120 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B656F08173EC875008CD120 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B656F09173EC875008CD120 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0B656EF8173EC874008CD120 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 0B656F12173EC875008CD120 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				0B656EFA173EC874008CD120 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0B656EF0173EC874008CD120 /* Redix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B656F0F173EC875008CD120 /* Build configuration list for PBXNativeTarget "Redix" */;
+			buildPhases = (
+				0B656EED173EC874008CD120 /* Sources */,
+				0B656EEE173EC874008CD120 /* Frameworks */,
+				0B656EEF173EC874008CD120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redix;
+			productName = Redix;
+			productReference = 0B656EF1173EC874008CD120 /* Redix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B656EE9173EC874008CD120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Emiliano Mancuso";
+			};
+			buildConfigurationList = 0B656EEC173EC874008CD120 /* Build configuration list for PBXProject "Redix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B656EE8173EC874008CD120;
+			productRefGroup = 0B656EF2173EC874008CD120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B656EF0173EC874008CD120 /* Redix */,
+				0B656EF8173EC874008CD120 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B656EEF173EC874008CD120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */,
+				0B656F07173EC874008CD120 /* MainMenu.xib in Resources */,
+				0B656F0A173EC875008CD120 /* rb_main.rb in Resources */,
+				0B656F0C173EC875008CD120 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B656EED173EC874008CD120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B656F02173EC874008CD120 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B656EFA173EC874008CD120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B656EF0173EC874008CD120 /* Redix */;
+			targetProxy = 0B656EF9173EC874008CD120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B656EFE173EC874008CD120 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B656EFF173EC874008CD120 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B656F05173EC874008CD120 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B656F06173EC874008CD120 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B656F0D173EC875008CD120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0B656F0E173EC875008CD120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0B656F10173EC875008CD120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
+				INFOPLIST_FILE = "Redix/Redix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B656F11173EC875008CD120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
+				INFOPLIST_FILE = "Redix/Redix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B656F13173EC875008CD120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0B656F14173EC875008CD120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B656EEC173EC874008CD120 /* Build configuration list for PBXProject "Redix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B656F0D173EC875008CD120 /* Debug */,
+				0B656F0E173EC875008CD120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B656F0F173EC875008CD120 /* Build configuration list for PBXNativeTarget "Redix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B656F10173EC875008CD120 /* Debug */,
+				0B656F11173EC875008CD120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B656F12173EC875008CD120 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B656F13173EC875008CD120 /* Debug */,
+				0B656F14173EC875008CD120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B656EE9173EC874008CD120 /* Project object */;
+}
