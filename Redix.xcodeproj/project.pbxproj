@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF4173EC874008CD120 /* Cocoa.framework */; };
-		0B656EF7173EC874008CD120 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF6173EC874008CD120 /* MacRuby.framework */; };
 		0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B656EFE173EC874008CD120 /* InfoPlist.strings */; };
 		0B656F02173EC874008CD120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B656F01173EC874008CD120 /* main.m */; };
 		0B656F07173EC874008CD120 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F05173EC874008CD120 /* MainMenu.xib */; };
 		0B656F0A173EC875008CD120 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F09173EC875008CD120 /* rb_main.rb */; };
-		0B656F0C173EC875008CD120 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F0B173EC875008CD120 /* AppDelegate.rb */; };
+		0B656F17173EC8B8008CD120 /* ObjCHiredis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */; };
+		0B656F1B173ECF21008CD120 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656F1A173ECF21008CD120 /* MacRuby.framework */; };
+		0B656F1F173ED52E008CD120 /* Main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F1E173ED52E008CD120 /* Main.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +30,16 @@
 /* Begin PBXFileReference section */
 		0B656EF1173EC874008CD120 /* Redix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B656EF4173EC874008CD120 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		0B656EF6173EC874008CD120 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
 		0B656EFD173EC874008CD120 /* Redix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Redix-Info.plist"; sourceTree = "<group>"; };
 		0B656EFF173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B656F01173EC874008CD120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B656F03173EC874008CD120 /* Redix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Redix-Prefix.pch"; sourceTree = "<group>"; };
 		0B656F06173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0B656F09173EC875008CD120 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		0B656F0B173EC875008CD120 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		0B656F15173EC8A4008CD120 /* Redix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Redix.entitlements; sourceTree = "<group>"; };
+		0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjCHiredis.framework; sourceTree = "<group>"; };
+		0B656F1A173ECF21008CD120 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MacRuby.framework; sourceTree = "<group>"; };
+		0B656F1E173ED52E008CD120 /* Main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Main.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +48,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */,
-				0B656EF7173EC874008CD120 /* MacRuby.framework in Frameworks */,
+				0B656F17173EC8B8008CD120 /* ObjCHiredis.framework in Frameworks */,
+				0B656F1B173ECF21008CD120 /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +76,9 @@
 		0B656EF3173EC874008CD120 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0B656F1A173ECF21008CD120 /* MacRuby.framework */,
+				0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */,
 				0B656EF4173EC874008CD120 /* Cocoa.framework */,
-				0B656EF6173EC874008CD120 /* MacRuby.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +86,8 @@
 		0B656EFB173EC874008CD120 /* Redix */ = {
 			isa = PBXGroup;
 			children = (
-				0B656F0B173EC875008CD120 /* AppDelegate.rb */,
+				0B656F1E173ED52E008CD120 /* Main.rb */,
+				0B656F15173EC8A4008CD120 /* Redix.entitlements */,
 				0B656F04173EC874008CD120 /* Resources */,
 				0B656F08173EC875008CD120 /* Other Sources */,
 				0B656EFC173EC874008CD120 /* Supporting Files */,
@@ -188,7 +194,7 @@
 				0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */,
 				0B656F07173EC874008CD120 /* MainMenu.xib in Resources */,
 				0B656F0A173EC875008CD120 /* rb_main.rb in Resources */,
-				0B656F0C173EC875008CD120 /* AppDelegate.rb in Resources */,
+				0B656F1F173ED52E008CD120 /* Main.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +300,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				GCC_ENABLE_OBJC_GC = required;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_ENTITLEMENTS = Redix/Redix.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
 				INFOPLIST_FILE = "Redix/Redix-Info.plist";
@@ -307,7 +321,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
-				GCC_ENABLE_OBJC_GC = required;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_ENTITLEMENTS = Redix/Redix.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
 				INFOPLIST_FILE = "Redix/Redix-Info.plist";
@@ -319,12 +341,14 @@
 		0B656F13173EC875008CD120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
 		};
 		0B656F14173EC875008CD120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
 		};
@@ -347,6 +371,7 @@
 				0B656F11173EC875008CD120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B656F12173EC875008CD120 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -355,6 +380,7 @@
 				0B656F14173EC875008CD120 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
