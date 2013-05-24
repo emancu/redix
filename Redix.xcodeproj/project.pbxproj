@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2B0D14174FF10500CB184E /* redis_structure_hash.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */; };
+		0B2B0D15174FF10500CB184E /* redis_structure_list.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */; };
+		0B2B0D16174FF10500CB184E /* redis_structure_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D10174FF10500CB184E /* redis_structure_set.rb */; };
+		0B2B0D17174FF10500CB184E /* redis_structure_sorted_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */; };
+		0B2B0D18174FF10500CB184E /* redis_structure_string.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D12174FF10500CB184E /* redis_structure_string.rb */; };
+		0B2B0D19174FF10500CB184E /* redis_structure.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D13174FF10500CB184E /* redis_structure.rb */; };
+		0B2B0D1B174FF12F00CB184E /* redis_data_source.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */; };
 		0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF4173EC874008CD120 /* Cocoa.framework */; };
 		0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B656EFE173EC874008CD120 /* InfoPlist.strings */; };
 		0B656F02173EC874008CD120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B656F01173EC874008CD120 /* main.m */; };
@@ -28,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_hash.rb; sourceTree = "<group>"; };
+		0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_list.rb; sourceTree = "<group>"; };
+		0B2B0D10174FF10500CB184E /* redis_structure_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_set.rb; sourceTree = "<group>"; };
+		0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_sorted_set.rb; sourceTree = "<group>"; };
+		0B2B0D12174FF10500CB184E /* redis_structure_string.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_string.rb; sourceTree = "<group>"; };
+		0B2B0D13174FF10500CB184E /* redis_structure.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = redis_structure.rb; path = Redix/models/redis_structure.rb; sourceTree = SOURCE_ROOT; };
+		0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = redis_data_source.rb; path = controllers/redis_data_source.rb; sourceTree = "<group>"; };
 		0B656EF1173EC874008CD120 /* Redix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B656EF4173EC874008CD120 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0B656EFD173EC874008CD120 /* Redix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Redix-Info.plist"; sourceTree = "<group>"; };
@@ -56,6 +70,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2B0D01174EC6DF00CB184E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B0D0D174FF10500CB184E /* redis_structure */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0B2B0D02174EC70300CB184E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B0D0D174FF10500CB184E /* redis_structure */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B0D13174FF10500CB184E /* redis_structure.rb */,
+				0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */,
+				0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */,
+				0B2B0D10174FF10500CB184E /* redis_structure_set.rb */,
+				0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */,
+				0B2B0D12174FF10500CB184E /* redis_structure_string.rb */,
+			);
+			name = redis_structure;
+			path = models/redis_structure;
+			sourceTree = "<group>";
+		};
 		0B656EE8173EC874008CD120 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				0B656F1E173ED52E008CD120 /* Main.rb */,
+				0B2B0D01174EC6DF00CB184E /* Models */,
+				0B2B0D02174EC70300CB184E /* Controllers */,
 				0B656F15173EC8A4008CD120 /* Redix.entitlements */,
 				0B656F04173EC874008CD120 /* Resources */,
 				0B656F08173EC875008CD120 /* Other Sources */,
@@ -195,6 +241,13 @@
 				0B656F07173EC874008CD120 /* MainMenu.xib in Resources */,
 				0B656F0A173EC875008CD120 /* rb_main.rb in Resources */,
 				0B656F1F173ED52E008CD120 /* Main.rb in Resources */,
+				0B2B0D14174FF10500CB184E /* redis_structure_hash.rb in Resources */,
+				0B2B0D15174FF10500CB184E /* redis_structure_list.rb in Resources */,
+				0B2B0D16174FF10500CB184E /* redis_structure_set.rb in Resources */,
+				0B2B0D17174FF10500CB184E /* redis_structure_sorted_set.rb in Resources */,
+				0B2B0D18174FF10500CB184E /* redis_structure_string.rb in Resources */,
+				0B2B0D19174FF10500CB184E /* redis_structure.rb in Resources */,
+				0B2B0D1B174FF12F00CB184E /* redis_data_source.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
