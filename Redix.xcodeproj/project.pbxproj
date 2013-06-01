@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2B0D14174FF10500CB184E /* redis_structure_hash.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */; };
-		0B2B0D15174FF10500CB184E /* redis_structure_list.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */; };
-		0B2B0D16174FF10500CB184E /* redis_structure_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D10174FF10500CB184E /* redis_structure_set.rb */; };
-		0B2B0D17174FF10500CB184E /* redis_structure_sorted_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */; };
-		0B2B0D18174FF10500CB184E /* redis_structure_string.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D12174FF10500CB184E /* redis_structure_string.rb */; };
-		0B2B0D19174FF10500CB184E /* redis_structure.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D13174FF10500CB184E /* redis_structure.rb */; };
-		0B2B0D1B174FF12F00CB184E /* redis_data_source.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */; };
 		0B656EF5173EC874008CD120 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656EF4173EC874008CD120 /* Cocoa.framework */; };
-		0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B656EFE173EC874008CD120 /* InfoPlist.strings */; };
-		0B656F02173EC874008CD120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B656F01173EC874008CD120 /* main.m */; };
-		0B656F07173EC874008CD120 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F05173EC874008CD120 /* MainMenu.xib */; };
 		0B656F0A173EC875008CD120 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F09173EC875008CD120 /* rb_main.rb */; };
 		0B656F17173EC8B8008CD120 /* ObjCHiredis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */; };
 		0B656F1B173ECF21008CD120 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B656F1A173ECF21008CD120 /* MacRuby.framework */; };
-		0B656F1F173ED52E008CD120 /* Main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0B656F1E173ED52E008CD120 /* Main.rb */; };
+		0BC518AA175A456200D7AB2C /* redis_data_source.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC5189F175A456200D7AB2C /* redis_data_source.rb */; };
+		0BC518AB175A456200D7AB2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A1175A456200D7AB2C /* MainMenu.xib */; };
+		0BC518AC175A456200D7AB2C /* redis_structure_hash.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A4175A456200D7AB2C /* redis_structure_hash.rb */; };
+		0BC518AD175A456200D7AB2C /* redis_structure_list.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A5175A456200D7AB2C /* redis_structure_list.rb */; };
+		0BC518AE175A456200D7AB2C /* redis_structure_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A6175A456200D7AB2C /* redis_structure_set.rb */; };
+		0BC518AF175A456200D7AB2C /* redis_structure_sorted_set.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A7175A456200D7AB2C /* redis_structure_sorted_set.rb */; };
+		0BC518B0175A456200D7AB2C /* redis_structure_string.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A8175A456200D7AB2C /* redis_structure_string.rb */; };
+		0BC518B1175A456200D7AB2C /* redis_structure.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518A9175A456200D7AB2C /* redis_structure.rb */; };
+		0BC518B3175A457400D7AB2C /* Main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B2175A457400D7AB2C /* Main.rb */; };
+		0BC518BC175A466D00D7AB2C /* button_action.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B5175A466D00D7AB2C /* button_action.tiff */; };
+		0BC518BD175A466D00D7AB2C /* button_add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B6175A466D00D7AB2C /* button_add.tiff */; };
+		0BC518BE175A466D00D7AB2C /* button_add_folder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B7175A466D00D7AB2C /* button_add_folder.tiff */; };
+		0BC518BF175A466D00D7AB2C /* button_bar_handle.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B8175A466D00D7AB2C /* button_bar_handle.tiff */; };
+		0BC518C0175A466D00D7AB2C /* button_bar_spacer.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518B9175A466D00D7AB2C /* button_bar_spacer.tiff */; };
+		0BC518C4175A46AF00D7AB2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BC518C2175A46AF00D7AB2C /* InfoPlist.strings */; };
+		0BC518C5175A492400D7AB2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B656F01173EC874008CD120 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,25 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_hash.rb; sourceTree = "<group>"; };
-		0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_list.rb; sourceTree = "<group>"; };
-		0B2B0D10174FF10500CB184E /* redis_structure_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_set.rb; sourceTree = "<group>"; };
-		0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_sorted_set.rb; sourceTree = "<group>"; };
-		0B2B0D12174FF10500CB184E /* redis_structure_string.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_string.rb; sourceTree = "<group>"; };
-		0B2B0D13174FF10500CB184E /* redis_structure.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = redis_structure.rb; path = Redix/models/redis_structure.rb; sourceTree = SOURCE_ROOT; };
-		0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = redis_data_source.rb; path = controllers/redis_data_source.rb; sourceTree = "<group>"; };
 		0B656EF1173EC874008CD120 /* Redix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B656EF4173EC874008CD120 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		0B656EFD173EC874008CD120 /* Redix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Redix-Info.plist"; sourceTree = "<group>"; };
-		0B656EFF173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B656F01173EC874008CD120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B656F01173EC874008CD120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = /Users/emancu/Code/Redix/main.m; sourceTree = "<absolute>"; };
 		0B656F03173EC874008CD120 /* Redix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Redix-Prefix.pch"; sourceTree = "<group>"; };
-		0B656F06173EC874008CD120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0B656F09173EC875008CD120 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		0B656F15173EC8A4008CD120 /* Redix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Redix.entitlements; sourceTree = "<group>"; };
-		0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjCHiredis.framework; sourceTree = "<group>"; };
-		0B656F1A173ECF21008CD120 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MacRuby.framework; sourceTree = "<group>"; };
-		0B656F1E173ED52E008CD120 /* Main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Main.rb; sourceTree = "<group>"; };
+		0B656F09173EC875008CD120 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; name = rb_main.rb; path = /Users/emancu/Code/Redix/rb_main.rb; sourceTree = "<absolute>"; };
+		0B656F15173EC8A4008CD120 /* Redix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file; name = Redix.entitlements; path = Resources/Redix.entitlements; sourceTree = "<group>"; };
+		0B656F16173EC8B8008CD120 /* ObjCHiredis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjCHiredis.framework; path = Frameworks/ObjCHiredis.framework; sourceTree = "<group>"; };
+		0B656F1A173ECF21008CD120 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Frameworks/MacRuby.framework; sourceTree = "<group>"; };
+		0BC5189F175A456200D7AB2C /* redis_data_source.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_data_source.rb; sourceTree = "<group>"; };
+		0BC518A1175A456200D7AB2C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		0BC518A4175A456200D7AB2C /* redis_structure_hash.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_hash.rb; sourceTree = "<group>"; };
+		0BC518A5175A456200D7AB2C /* redis_structure_list.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_list.rb; sourceTree = "<group>"; };
+		0BC518A6175A456200D7AB2C /* redis_structure_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_set.rb; sourceTree = "<group>"; };
+		0BC518A7175A456200D7AB2C /* redis_structure_sorted_set.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_sorted_set.rb; sourceTree = "<group>"; };
+		0BC518A8175A456200D7AB2C /* redis_structure_string.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure_string.rb; sourceTree = "<group>"; };
+		0BC518A9175A456200D7AB2C /* redis_structure.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = redis_structure.rb; sourceTree = "<group>"; };
+		0BC518B2175A457400D7AB2C /* Main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Main.rb; sourceTree = "<group>"; };
+		0BC518B5175A466D00D7AB2C /* button_action.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button_action.tiff; sourceTree = "<group>"; };
+		0BC518B6175A466D00D7AB2C /* button_add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button_add.tiff; sourceTree = "<group>"; };
+		0BC518B7175A466D00D7AB2C /* button_add_folder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button_add_folder.tiff; sourceTree = "<group>"; };
+		0BC518B8175A466D00D7AB2C /* button_bar_handle.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button_bar_handle.tiff; sourceTree = "<group>"; };
+		0BC518B9175A466D00D7AB2C /* button_bar_spacer.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button_bar_spacer.tiff; sourceTree = "<group>"; };
+		0BC518C3175A46AF00D7AB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		0BC518C9175ABF1800D7AB2C /* Redix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Redix-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,40 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B2B0D01174EC6DF00CB184E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				0B2B0D0D174FF10500CB184E /* redis_structure */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		0B2B0D02174EC70300CB184E /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B2B0D1A174FF12F00CB184E /* redis_data_source.rb */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		0B2B0D0D174FF10500CB184E /* redis_structure */ = {
-			isa = PBXGroup;
-			children = (
-				0B2B0D13174FF10500CB184E /* redis_structure.rb */,
-				0B2B0D0E174FF10500CB184E /* redis_structure_hash.rb */,
-				0B2B0D0F174FF10500CB184E /* redis_structure_list.rb */,
-				0B2B0D10174FF10500CB184E /* redis_structure_set.rb */,
-				0B2B0D11174FF10500CB184E /* redis_structure_sorted_set.rb */,
-				0B2B0D12174FF10500CB184E /* redis_structure_string.rb */,
-			);
-			name = redis_structure;
-			path = models/redis_structure;
-			sourceTree = "<group>";
-		};
 		0B656EE8173EC874008CD120 = {
 			isa = PBXGroup;
 			children = (
-				0B656EFB173EC874008CD120 /* Redix */,
+				0BC518B2175A457400D7AB2C /* Main.rb */,
+				0BC518A2175A456200D7AB2C /* Models */,
+				0BC5189E175A456200D7AB2C /* Controllers */,
+				0BC518A0175A456200D7AB2C /* Interfaces */,
+				0B656F04173EC874008CD120 /* Resources */,
+				0B656EFC173EC874008CD120 /* Supporting Files */,
 				0B656EF3173EC874008CD120 /* Frameworks */,
 				0B656EF2173EC874008CD120 /* Products */,
 			);
@@ -127,46 +112,87 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B656EFB173EC874008CD120 /* Redix */ = {
-			isa = PBXGroup;
-			children = (
-				0B656F1E173ED52E008CD120 /* Main.rb */,
-				0B2B0D01174EC6DF00CB184E /* Models */,
-				0B2B0D02174EC70300CB184E /* Controllers */,
-				0B656F15173EC8A4008CD120 /* Redix.entitlements */,
-				0B656F04173EC874008CD120 /* Resources */,
-				0B656F08173EC875008CD120 /* Other Sources */,
-				0B656EFC173EC874008CD120 /* Supporting Files */,
-			);
-			path = Redix;
-			sourceTree = "<group>";
-		};
 		0B656EFC173EC874008CD120 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B656EFD173EC874008CD120 /* Redix-Info.plist */,
-				0B656EFE173EC874008CD120 /* InfoPlist.strings */,
+				0B656F09173EC875008CD120 /* rb_main.rb */,
 				0B656F01173EC874008CD120 /* main.m */,
 				0B656F03173EC874008CD120 /* Redix-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Redix;
 			sourceTree = "<group>";
 		};
 		0B656F04173EC874008CD120 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0B656F05173EC874008CD120 /* MainMenu.xib */,
+				0BC518BA175A466D00D7AB2C /* Plists */,
+				0BC518B4175A466D00D7AB2C /* Images */,
+				0B656F15173EC8A4008CD120 /* Redix.entitlements */,
 			);
 			name = Resources;
+			path = Redix;
 			sourceTree = "<group>";
 		};
-		0B656F08173EC875008CD120 /* Other Sources */ = {
+		0BC5189E175A456200D7AB2C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0B656F09173EC875008CD120 /* rb_main.rb */,
+				0BC5189F175A456200D7AB2C /* redis_data_source.rb */,
 			);
-			name = "Other Sources";
+			path = Controllers;
 			sourceTree = "<group>";
+		};
+		0BC518A0175A456200D7AB2C /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0BC518A1175A456200D7AB2C /* MainMenu.xib */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		0BC518A2175A456200D7AB2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BC518A3175A456200D7AB2C /* redis_structure */,
+				0BC518A9175A456200D7AB2C /* redis_structure.rb */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BC518A3175A456200D7AB2C /* redis_structure */ = {
+			isa = PBXGroup;
+			children = (
+				0BC518A4175A456200D7AB2C /* redis_structure_hash.rb */,
+				0BC518A5175A456200D7AB2C /* redis_structure_list.rb */,
+				0BC518A6175A456200D7AB2C /* redis_structure_set.rb */,
+				0BC518A7175A456200D7AB2C /* redis_structure_sorted_set.rb */,
+				0BC518A8175A456200D7AB2C /* redis_structure_string.rb */,
+			);
+			path = redis_structure;
+			sourceTree = "<group>";
+		};
+		0BC518B4175A466D00D7AB2C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0BC518B5175A466D00D7AB2C /* button_action.tiff */,
+				0BC518B6175A466D00D7AB2C /* button_add.tiff */,
+				0BC518B7175A466D00D7AB2C /* button_add_folder.tiff */,
+				0BC518B8175A466D00D7AB2C /* button_bar_handle.tiff */,
+				0BC518B9175A466D00D7AB2C /* button_bar_spacer.tiff */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		0BC518BA175A466D00D7AB2C /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				0BC518C9175ABF1800D7AB2C /* Redix-Info.plist */,
+				0BC518C2175A46AF00D7AB2C /* InfoPlist.strings */,
+			);
+			name = Plists;
+			path = Resources/Plists;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -237,17 +263,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B656F00173EC874008CD120 /* InfoPlist.strings in Resources */,
-				0B656F07173EC874008CD120 /* MainMenu.xib in Resources */,
 				0B656F0A173EC875008CD120 /* rb_main.rb in Resources */,
-				0B656F1F173ED52E008CD120 /* Main.rb in Resources */,
-				0B2B0D14174FF10500CB184E /* redis_structure_hash.rb in Resources */,
-				0B2B0D15174FF10500CB184E /* redis_structure_list.rb in Resources */,
-				0B2B0D16174FF10500CB184E /* redis_structure_set.rb in Resources */,
-				0B2B0D17174FF10500CB184E /* redis_structure_sorted_set.rb in Resources */,
-				0B2B0D18174FF10500CB184E /* redis_structure_string.rb in Resources */,
-				0B2B0D19174FF10500CB184E /* redis_structure.rb in Resources */,
-				0B2B0D1B174FF12F00CB184E /* redis_data_source.rb in Resources */,
+				0BC518AA175A456200D7AB2C /* redis_data_source.rb in Resources */,
+				0BC518AB175A456200D7AB2C /* MainMenu.xib in Resources */,
+				0BC518AC175A456200D7AB2C /* redis_structure_hash.rb in Resources */,
+				0BC518AD175A456200D7AB2C /* redis_structure_list.rb in Resources */,
+				0BC518AE175A456200D7AB2C /* redis_structure_set.rb in Resources */,
+				0BC518AF175A456200D7AB2C /* redis_structure_sorted_set.rb in Resources */,
+				0BC518B0175A456200D7AB2C /* redis_structure_string.rb in Resources */,
+				0BC518B1175A456200D7AB2C /* redis_structure.rb in Resources */,
+				0BC518B3175A457400D7AB2C /* Main.rb in Resources */,
+				0BC518BC175A466D00D7AB2C /* button_action.tiff in Resources */,
+				0BC518BD175A466D00D7AB2C /* button_add.tiff in Resources */,
+				0BC518BE175A466D00D7AB2C /* button_add_folder.tiff in Resources */,
+				0BC518BF175A466D00D7AB2C /* button_bar_handle.tiff in Resources */,
+				0BC518C0175A466D00D7AB2C /* button_bar_spacer.tiff in Resources */,
+				0BC518C4175A46AF00D7AB2C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B656F02173EC874008CD120 /* main.m in Sources */,
+				0BC518C5175A492400D7AB2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,20 +304,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B656EFE173EC874008CD120 /* InfoPlist.strings */ = {
+		0BC518C2175A46AF00D7AB2C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B656EFF173EC874008CD120 /* en */,
+				0BC518C3175A46AF00D7AB2C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0B656F05173EC874008CD120 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B656F06173EC874008CD120 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,17 +377,17 @@
 			buildSettings = {
 				ARCHS = x86_64;
 				BUNDLE_LOADER = "";
-				CODE_SIGN_ENTITLEMENTS = Redix/Redix.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Resources/Redix.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
-				INFOPLIST_FILE = "Redix/Redix-Info.plist";
+				GCC_PREFIX_HEADER = "Redix-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Plists/Redix-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,17 +398,17 @@
 			buildSettings = {
 				ARCHS = x86_64;
 				BUNDLE_LOADER = "";
-				CODE_SIGN_ENTITLEMENTS = Redix/Redix.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Resources/Redix.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_GC = unsupported;
 				"GCC_ENABLE_OBJC_GC[arch=x86_64]" = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Redix/Redix-Prefix.pch";
-				INFOPLIST_FILE = "Redix/Redix-Info.plist";
+				GCC_PREFIX_HEADER = "Redix-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Plists/Redix-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
